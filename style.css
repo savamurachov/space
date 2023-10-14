@@ -1,0 +1,124 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Circle';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,ol{
+  list-style: none;
+}
+a{
+text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.conteiner{
+    max-width: 1100px;
+    width: 95%;
+}
+.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: fantasy;
+}
+.h1{
+    font-size: 4rem;
+    font-weight: bold ; 
+    text-transform: uppercase;
+}
+.h2,.h3{
+    font-weight: 500;
+}
+.h2{
+    font-size: 30px;
+}
+.color-white{
+color: rgb(122, 2, 182);
+}
+.color-dark{
+   color :rgb(32, 22, 218);
+}
+.first-screen a, .side-menu a, .footer a {
+    color: #5d007c;
+}
+.first-screen{
+    min-height: 800px;
+flex-direction: column;
+justify-content:space-between ;
+background-image: url('photo_2023-06-24\ 09.57.17.jpeg');
+background-attachment: fixed;
+}
+.header{ 
+    width: 100%;
+    min-width: 90px;
+    display: flex;
+    justify-content: space-arounds;
+    align-items: center;
+    border-bottom: 1px solid wheat;
+}
+.header__menu{
+    display: flex;
+    grid-gap: 45px;
+}
+.header__right-bar{
+    display: flex;
+    grid-gap: 70px;
+}
+.header__lang-icon, .header__search-icon{
+    display: block;
+    width: 20px;
+    height: 18px;
+}
+input{
+    margin: 12px;
+    padding: 9px;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+select{
+    padding: 9px;
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-right: 80px;
+}
+.side-menu__main{
+    color: black;
+}
+.side-menu__list>li{
+    color: black;
+}
+.side-menu__list{
+    display: none;
+}
+.erty{
+    display: block;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    color: #00a36a;
+    background-color: #5835b1;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.color-white{
+    background-color: #5835b1;
+}
+.numbers a{
+    color: #bf00ff;
+}
